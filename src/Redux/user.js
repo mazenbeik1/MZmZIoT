@@ -22,6 +22,7 @@ export const userReducer = createSlice({
             console.log('user was reset');
             state.signStatus = "Signin";
             localStorage.removeItem("aguid");
+            localStorage.removeItem("email");
         }
     }
 });
