@@ -1,5 +1,5 @@
 import { Button, Tabs, Tab } from 'react-bootstrap';
-import axios from 'axios';
+// import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Lights from './Lights';
 import Door from './Door';
