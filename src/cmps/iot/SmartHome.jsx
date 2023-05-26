@@ -12,12 +12,12 @@ const SmartHome = () => {
 	// const {loading, authenticated,error,successMessage,personalInfo} = useSelector(state=>state.auth)
     
 	const navigate = useNavigate();
-	const socket = io.connect('/');
+	const socket = io.connect('https://iotwebservice.onrender.com/');
     
 	useEffect(()=>{
         const email = localStorage.getItem('email');
 		if(!email){
-			navigate('https://iotwebservice.onrender.com//login');
+			navigate('/login');
 			alert("please login first");
 		}
 	})
