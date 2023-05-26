@@ -17,7 +17,7 @@ const SmartHome = () => {
 	useEffect(()=>{
         const email = localStorage.getItem('email');
 		if(!email){
-			navigate('/login');
+			navigate('https://iotwebservice.onrender.com//login');
 			alert("please login first");
 		}
 	})
