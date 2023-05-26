@@ -1,0 +1,60 @@
+.portofolio{
+    background-color: rgb(19, 113, 190);
+}
+
+.header{
+    text-align: center;
+}
+
+
+.avatar{
+    width: 15rem;
+    height: 15rem;
+    margin: auto;
+    // margin-top: 20px;
+    margin-bottom: 0px !important;
+    transform: translate(0,130px);
+    border-width: 10px;
+    border-color: rgba(6, 31, 52, 0.591);
+    // border-style: outset;
+
+    // width: 20em;
+    // border-radius: 1000px;
+}
+
+.title{
+    border-radius: 100PX;
+    background-color: rgba(6, 31, 52, 0.591);
+    color: rgb(246, 246, 246);
+    display: inline-block;
+    // margin: auto;
+    width: fit-content;
+    min-width: 70%;
+    // margin-top: 100px;
+    padding: 15px;
+    padding-top: 120px !important;
+    border-radius: 1000px;
+    box-shadow: 5px 10px 10px rgba(6, 31, 52, 0.591);
+    border-color: rgba(6, 31, 52, 0.591);
+    border-width: 10px;
+    border-style: double ;
+    // transform: translate(0,20px);
+}
+
+.name{
+    text-align: center;
+    font-size: larger;
+}
+
+.profeciency{
+    text-align: center;
+    font-size: medium;
+}
+
+.portoLink{
+    background-color: white;
+    border-radius: 100px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: gold;
+}

@@ -1,0 +1,46 @@
+.SmartHome{
+    width: 100vw;
+    text-align: center;
+    color: black;
+}
+
+.SmartHomeLogo{
+    width: 7rem;
+    display: inline;
+}
+
+.Lights{
+    text-align: center;
+}
+
+.roomTitle{
+    width: fit-content;
+    min-width: 70vw;
+    display: inline-block;
+    background-color: rgba(160, 15, 15, 0.589);
+    // background-color: rgba(196, 103, 103, 0.934);
+    // background-image: url('/imgs/redtech.jpg');
+    border-color: black;
+    border-width: 2px;
+    margin: 15px;
+    height: fit-content;
+    padding: 10px;
+    color: whitesmoke;
+    font-size: 2rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.463);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 200ms;
+    border-radius: 10px;
+}
+
+.roomTitle:hover{
+    background-color: rgba(133, 21, 21, 0.242);
+    font-size: 2.5rem;
+}
+
+.roomValues{
+    font-size: 1.25rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline;
+    margin: 10px;
+}

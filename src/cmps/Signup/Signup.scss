@@ -1,0 +1,60 @@
+.Signup{
+    // height: 50vh;
+    background-color:rgba(239, 233, 233, 0.671);
+    margin: 50px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.SignupForm{
+    text-align: center;
+    box-shadow: 10rem;
+    background: hsla(0, 0%, 100%, 0.55);
+    backdrop-filter: blur(20px);
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    border-radius: 30px;
+    // margin: 0 !important;
+    transform: translate(100px,95px);
+}
+
+
+.SignupHeader{
+    margin: 0 0 40px;
+}
+
+.IndexImg{
+    display: inline;
+    border-radius: 30px;
+    height: 100%;
+    width: 40%;
+}
+
+.signupBtns{
+    width: 50% !important;
+    margin: 6px;
+}
+
+.fab{
+    background-color: red;
+}
+
+.googleButton{
+    
+}
+
+@media all and (max-width: 1000px) {
+    .SignupForm{   
+        transform: translate(0px,120px);
+        width: 80%;
+        margin: auto;
+    }
+    .IndexImg{
+        border-radius: 30px;
+        width: 80%;
+        margin: auto;
+    }
+}
